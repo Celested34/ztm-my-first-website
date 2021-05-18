@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form method="GET" action="action.php">
+       First Name: <input type="text" name="firstname"><br>
+       Last Name: <input type="text" name="lastname"><br>
+       Email: <input type="email" name="email"><br>
+       Password: <input type="password" name="password" minlength="5"><br>
+       Birthday: <input type="date" name="birthday"><br>
+       Gender:<input type="text" name="gender"><br>
+       Pronouns:<input type="text" name="pronouns"><br>
+       Can we contact you?: <br>
+       <input type="radio" name="Can we contact you?" value="Yes">Yes<br>
+       <input type="radio" name="Can we contact you?" value="No">No<br>
+       Pets:<br>
+       <input type="checkbox" name="cat"> Cat<br>
+       <input type="checkbox" name="dog"> Dog<br>
+       Cars: <br>
+       <select name="cars">
+           <option value="volvo" name="volvo">Volvo</option>   
+           <option value="audi" name="audi">Audi</option>    
+        </select><br>
+       <input type="submit" value="Register!">
+       <input type="reset">
+    </form>
+</body>
+</html>
